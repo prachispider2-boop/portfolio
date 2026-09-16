@@ -72,36 +72,8 @@ body {
     font-size: 1.5rem;
 }
 
-.butto {
-    display: inline-block;
-    border: none;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-.but {
-    padding: 12px 25px;
-    color: #F3DCE5;
-    background: linear-gradient(
-        60deg,
-        #C47B8C,
-        #A88FB8,
-        #D995A7
-    );
 
-    background-size: 300% 300%;
-    animation: gradient-animation 5s ease infinite;
-    border-radius: 25px;
-    box-shadow: 0 5px 15px rgba(20, 6, 10, 0.5);
-    font-family: "EB Garamond", serif;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.but:hover {
-    box-shadow: 0 8px 25px rgba(217, 149, 167, 0.7);
-    transform: translateY(-3px);
-}
 
 .lap {
     position: absolute;
