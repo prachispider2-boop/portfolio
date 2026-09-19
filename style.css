@@ -487,6 +487,36 @@ body {
     margin: 0;
 }
 
+.butto {
+    padding: 13px 25px;
+    color: #F3DCE5;
+    background: linear-gradient(
+        60deg,
+        #C47B8C,
+        #A88FB8,
+        #D995A7
+    );
+
+    background-size: 300% 300%;
+    animation: gradient-animation 5s ease infinite;
+
+    border: none;
+    border-radius: 25px;
+
+    font-family: "EB Garamond", serif;
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(20, 6, 10, 0.5);
+
+    transition: all 0.3s ease;
+}
+
+.butto:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(217, 149, 167, 0.7);
+}
 
 .view-website {
     display: block;
